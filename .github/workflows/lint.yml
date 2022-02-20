@@ -23,5 +23,5 @@ jobs:
       - name: Install Packages
         run: poetry install --no-interaction --no-root
 
-      - name: Run flake8
+      - name: Run flake8 fouriervis
         run: poetry run flake8
